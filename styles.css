@@ -74,6 +74,10 @@
       object-fit: cover;
     }
 
+    .hero .main-text{
+        color: white;
+    }
+
     .hero .cta-button {
       position: absolute;
       left: 50%;
