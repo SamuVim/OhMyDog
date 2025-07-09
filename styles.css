@@ -100,14 +100,15 @@
       left: 50%;
       top: 70%;
       transform: translate(-50%, -50%);
-      background-color: #28a745;
-      color: white;
+      background-color: #1c1c1c;
+      color: #f2e7d5;
       padding: 1rem 2rem;
       font-size: 1.2rem;
       border: none;
       border-radius: 5px;
       cursor: pointer;
       transition: background-color 0.3s ease;
+      font-weight: bold;
     }
 
     .hero .cta-button:hover {
