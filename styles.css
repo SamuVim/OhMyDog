@@ -46,6 +46,13 @@
       font-weight: bold;
     }
 
+    .header .h3
+    {
+   font-size: 1.2rem;
+   margin-bottom: 1.5rem;
+   font-weight: normal;
+    }
+
     .nav .book-btn {
       background-color: #1c1c1c;
       color: #f2e7d5;
