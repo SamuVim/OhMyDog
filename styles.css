@@ -13,11 +13,14 @@
     /* Header */
     .header {
       display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
       justify-content: space-between;
       align-items: center;
-      /*padding: 1rem 2rem;*/
       background-color: #f2e7d5;
       border-bottom: 1px solid #ccc;
+      padding-right: 1rem;
       position: sticky;
       top: 0;
       z-index: 100;
@@ -65,7 +68,7 @@
     }
 
     .nav .book-btn:hover {
-      background-color: black;
+      background-color: #1e7e34;
     }
 
     /* Hero Section */
@@ -174,36 +177,6 @@
   height: auto;
 }
     
-    /* Footer Styles */
-.footer {
-  background-color: #1c1c1c;
-  color: #ddd;
-  padding: 1.5rem 2rem;
-  font-size: 0.9rem;
-}
-
-.footer-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-}
-
-.footer-left {
-  flex: 1 1 50%;
-}
-
-.footer-right {
-  text-align: right;
-  flex: 1 1 50%;
-}
-
-/*.footer-right div {
-  margin-bottom: 0.3rem;
-}*/
 
 .social-icons img {
   width: 16px;
