@@ -71,6 +71,52 @@
       background-color: #1e7e34;
     }
 
+/*Hero slide show from gpt start*/
+    .hero-slideshow {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+/* Common styles for all slides */
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  animation: crossfade 12s infinite;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Background images */
+.slide1 {
+  background-image: url('HeroImgs/Hero1.png');
+  animation-delay: 0s;
+}
+
+.slide2 {
+  background-image: url('HeroImgs/Hero2.png');
+  animation-delay: 4s;
+}
+
+.slide3 {
+  background-image: url('HeroImgs/Hero3.png');
+  animation-delay: 8s;
+}
+
+/* Keyframe animation for fade in/out */
+@keyframes crossfade {
+  0%   { opacity: 0; }
+  8%   { opacity: 1; }
+  33%  { opacity: 1; }
+  41%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+/* slideshow end */
+
     /* Hero Section */
     .hero {
       position: relative;
