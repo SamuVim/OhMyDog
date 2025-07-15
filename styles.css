@@ -146,7 +146,15 @@
   margin: 0.5rem 0;
 }
 
-.title-text h3 {
+.hero h3 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   font-weight: normal;
