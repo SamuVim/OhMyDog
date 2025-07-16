@@ -13,6 +13,7 @@
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
+      background-color: var(--beije);
     }
 
     /* Header */
@@ -320,4 +321,55 @@
   font-size: 1rem;
   line-height: 1.6;
   color: #555;
+}
+
+/*prices.html*/
+/* Main table container */
+.services-table {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 700px;
+  border: 2pt solid #1c1c1c;      /* outer border */
+  border-radius: 8px;             /* rounded corners */
+  border-collapse: separate;      /* allow border radius */
+  border-spacing: 0;              /* remove spacing between cells */
+  overflow: hidden;               /* ensures corners are rounded */
+  font-family: sans-serif;
+}
+
+/* Header row styling */
+.services-table th {
+  background-color: #1c1c1c;      /* dark background */
+  color: white;                   /* white text */
+  font-weight: bold;             /* bold text */
+  padding: 12px;
+  text-align: left;
+}
+
+/* Regular cell styling */
+.services-table td {
+  padding: 12px;
+  background-color: var(--beije);
+}
+
+/* Add a border between each data row */
+.services-table tr + tr td {
+  border-top: 1px solid #ccc;
+}
+
+/* Section header row ("Other") */
+.section-row td {
+  text-align: center;
+  background-color: #1c1c1c;      /* same background as main header */
+  color: white;                   /* white text */
+  font-weight: bold;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+}
+
+.price-categories h2{
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
 }
