@@ -149,21 +149,21 @@
     transform: translate(-50%, -50%);
     padding: 1rem;
     text-align: center;
-    color: white;
+    color: var(--blick);
     font-family: 'Bookerly', sans-serif;
 
 }
     .title-text h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
-  text-shadow: 0px 0px 8px black;
+  /*text-shadow: 0px 0px 8px black;*/
 }
 
 .title-text h3 {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   font-weight: normal;
-  text-shadow: 0px 0px 8px black;
+  /*text-shadow: 0px 0px 8px black;*/
 }
 
     .hero .cta-button {
