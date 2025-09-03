@@ -97,8 +97,8 @@
   height: 100%;
   background-size: cover;
   background-position: center;
-  animation: crossfade 12s infinite;
-  opacity: 0;
+  /*animation: crossfade 12s infinite;*/
+  /*opacity: 0;*/
   transition: opacity 1s ease-in-out;
 }
 
@@ -109,12 +109,12 @@
 }
 
 .slide2 {
-  background-image: url('HeroImgs/Hero2.png');
+  background-image: url('HeroImgs/HeroA.png');
   animation-delay: 4s;
 }
 
 .slide3 {
-  background-image: url('HeroImgs/Hero3.png');
+  background-image: url('HeroImgs/HeroA.png');
   animation-delay: 8s;
 }
 
@@ -149,21 +149,21 @@
     transform: translate(-50%, -50%);
     padding: 1rem;
     text-align: center;
-    color: var(--blick);
+    color: white;
     font-family: 'Bookerly', sans-serif;
 
 }
     .title-text h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
-  /*text-shadow: 0px 0px 8px black;*/
+  text-shadow: 0px 0px 8px black;
 }
 
 .title-text h3 {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   font-weight: normal;
-  /*text-shadow: 0px 0px 8px black;*/
+  text-shadow: 0px 0px 8px black;
 }
 
     .hero .cta-button {
