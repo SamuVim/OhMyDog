@@ -307,6 +307,89 @@
     border-radius: 8px;
     }
 
+    /*Friends*/
+
+.friends {
+  display: flex;
+  flex-direction: column; /* stack title and boxes vertically */
+  align-items: center;    /* center them horizontally */
+  text-align: center;
+  margin: 3rem auto;
+  max-width: 1000px;
+}
+
+.contact-title {
+  width: 350px;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.contact-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  flex-wrap: wrap; /* stacks on small screens */
+}
+
+.friend {
+  background-color: var(--beije); /* your custom variable */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 2rem;
+  flex: 1 1 300px; /* flexible width, min 300px each */
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.friend-top {
+  flex-grow: 1; /* makes all top sections the same height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* keeps logo, h2, p together neatly */
+}
+
+.contact-logo {
+  max-width: 80px;
+  height: auto;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+
+.friend h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.friend p {
+  margin-bottom: 1.5rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.friends .cta-button {
+      background-color: var(--blick);
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+    }
+
+    .prices .cta-button:hover {
+      background-color: #1e7e34;
+    }
+
+
 .bottom-bit {
   padding-top: 2rem;
   background-color: #f2e7d5;
